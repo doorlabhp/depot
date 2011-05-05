@@ -8,10 +8,10 @@
 		<tr>
 			<td> <%= li.quantity %> &times; </td>
 			<td> <%= li.product.title %> </td>
-			<td class="item_price"> <%= li.total_price %> </td>
+			<td> <%= li.total_price %> </td>
 		</tr>
 	<% end %>
-	<tr class="total_line">
+	<tr>
 		<td colspan="2">Total:</td>
 		<td class="total_cell"> <%= number_to_currency(@cart.total_price) %> </td>		
 	</tr>
