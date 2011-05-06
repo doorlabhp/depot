@@ -14,9 +14,6 @@
 	</div>
 	<div id="columns">
 		<div id="side">
-			<div id="cart">
-				<%= render @cart %>
-			</div>
 			<a href="http://localhost:3000">Home</a><br/>
 			<a href="http://www....">Questions</a><br/>
 			<a href="http://www....">News</a><br/>
